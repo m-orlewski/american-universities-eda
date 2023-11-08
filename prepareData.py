@@ -16,9 +16,17 @@ universityDataDf['Ranking'] = universityDataDf['Ranking'].fillna('1501+')
 universityDataDf['Ranking'] = universityDataDf.apply(lambda x: x['Ranking'].replace('=', ''), axis=1)
 universityDataDf['Ranking display'] = np.where(universityDataDf['Ranking'] == '1501+', '1500+', 'top 1500')
 
-universityDataDf = universityDataDf[['Name', 'Ranking', 'Ranking display', 'Applicants total', 'Admissions total', 'Enrolled total', 'Tuition and fees, 2010-11', 
-           'Tuition and fees, 2011-12', 'Tuition and fees, 2012-13', 'Tuition and fees, 2013-14', 'Control of institution',
-           'Total price for in-state students living on campus 2013-14', 'Total price for out-of-state students living on campus 2013-14']]
+universityDataDf = universityDataDf[[
+                    'Name', 'Ranking', 'Ranking display', 'Applicants total', 'Admissions total',
+                    'Enrolled total', 'Tuition and fees, 2013-14', 'Control of institution',
+                    'Total price for in-state students living on campus 2013-14',
+                    'Total price for out-of-state students living on campus 2013-14']]
+
+universityDataDf = universityDataDf.rename(columns={'Tuition and fees, 2013-14': 'Tuition and fees',
+                   'Total price for in-state students living on campus 2013-14':
+                   'Total price for in-state students living on campus',
+                   'Total price for out-of-state students living on campus 2013-14':
+                   'Total price for out-of-state students living on campus'})
            
 print(universityDataDf.shape)
 print(universityDataDf['Ranking display'].unique())
