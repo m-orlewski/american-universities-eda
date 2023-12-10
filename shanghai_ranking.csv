@@ -1,36 +1,36 @@
 1,Harvard University
 2,Stanford University
-3,Massachusetts Institute of Technology (MIT)
+3,Massachusetts Institute of Technology
 4,University of Cambridge
-5,"University of California, Berkeley"
+5,University of California-Berkeley
 6,Princeton University
 7,University of Oxford
-8,Columbia University
+8,Columbia University in the City of New York
 9,California Institute of Technology
 10,University of Chicago
 11,Yale University
 12,Cornell University
-13,"University of California, Los Angeles"
+13,University of California-Los Angeles
 14,Johns Hopkins University
 15,University of Pennsylvania
 16,Paris-Saclay University
-17,University of Washington
+17,University of Washington-Seattle Campus
 18,University College London
 19,"University of California, San Francisco"
 20,ETH Zurich
-21,"University of California, San Diego"
+21,University of California-San Diego
 22,University of Toronto
 23,Imperial College London
 24,The University of Tokyo
 25,New York University
 26,Tsinghua University
-27,Washington University in St. Louis
+27,Washington University in St Louis
 28,University of Michigan-Ann Arbor
 29,University of North Carolina at Chapel Hill
 30,Northwestern University
 31,Duke University
 32,The University of Melbourne
-33,University of Wisconsin - Madison
+33,University of Wisconsin-Madison
 34,Peking University
 35,The University of Edinburgh
 36,Zhejiang University
@@ -43,22 +43,22 @@
 43,Sorbonne University
 44,Rockefeller University
 44,University of British Columbia
-44,"University of Minnesota, Twin Cities"
+44,University of Minnesota-Twin Cities
 47,The University of Queensland
 48,King's College London
 49,University of Illinois at Urbana-Champaign
-50,"University of Maryland, College Park"
-51,University of Colorado at Boulder
-52,The University of Texas Southwestern Medical Center at Dallas
+50,University of Maryland-College Park
+51,University of Colorado Boulder
+52,The University of Texas at Dallas
 53,University of Southern California
 54,Shanghai Jiao Tong University
 54,Utrecht University
 56,Technical University of Munich
-57,"University of California, Santa Barbara"
+57,University of California-Santa Barbara
 57,University of Munich
 59,University of Zurich
 60,University of Sydney
-61,"University of California, Irvine"
+61,University of California-Irvine
 62,University of Geneva
 62,University of Science and Technology of China
 64,The University of New South Wales
@@ -79,8 +79,8 @@
 79,Sun Yat-sen University
 79,The Australian National University
 81,University of Bristol
-82,University of Pittsburgh
-83,Purdue University - West Lafayette
+82,University of Pittsburgh-Pittsburgh Campus
+83,Purdue University-Main Campus
 83,Technion-Israel Institute of Technology
 83,University of Basel
 83,Weizmann Institute of Science
